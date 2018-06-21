@@ -6,22 +6,23 @@
 
 <div class="search-container">
   <h2>Place Input</h2>
+  <!--
   <mat-form-field>
     <input matInput [(ngModel)]="place.name" name="place.name" />
-    <!-- 
+    
     inhibitorArc: boolean;
   observable: boolean;
   observerType?: ObserverType;
-  -->
+ 
     <mat-radio-group [(ngModel)]="place.inhibitorArc">
       <mat-radio-button *ngFor="let inhibitorArc of inhibitorArcOptions" [value]="inhibitorArc">
         {{inhibitorArc}}
       </mat-radio-button>
     </mat-radio-group>
   </mat-form-field>
-
+ -->
   <h2>Place List</h2>
-
+  <!--
   <div *ngIf="placeList.length > 0">
     <mat-list>
       <mat-list-item *ngIf='!placeItem.editing'>
@@ -47,17 +48,20 @@
         <mat-divider></mat-divider>
       </mat-list-item>
     </mat-list>
+    
+    
   </div>
+-->
 
 
 
-
+  <!--
   <div *ngIf="!(placeList.length > 0)">
     <p>
       No places in the list.
     </p>
   </div>
-
+-->
 </div>
 
 <div>
