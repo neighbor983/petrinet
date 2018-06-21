@@ -1,4 +1,4 @@
 export enum ObserverType {
-  attacker,
-  defender
+  attacker = "attacker",
+  defender = "defender"
 }
