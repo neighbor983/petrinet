@@ -3,7 +3,6 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 import { ObserverType } from '../models/observerType.model';
 
-
 @Component({
   selector: 'app-places',
   templateUrl: './places.component.html',
@@ -27,7 +26,4 @@ export class PlacesComponent implements OnInit {
     this.placeForm.valueChanges.subscribe(console.log);
   }
   
-
-  
-
 }
